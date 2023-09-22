@@ -2,7 +2,7 @@ const array = [50, 25, -14, 2, 1, 94, 80, 51, 16, -28, -34, 18];
 let count = 0;
 
 /**
- * Selection Sort
+ * Bubble Sort
  * Time O(N^2)
  * @param {number[]} array
  * @return {number[]}

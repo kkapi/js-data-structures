@@ -35,5 +35,5 @@ function binarySearch(array, item) {
 }
 
 console.log('/binary_search/')
-console.log('position: ', binarySearch(array, 8));
+console.log('position: ', binarySearch(array, 7));
 console.log('iteration count: ', count);
