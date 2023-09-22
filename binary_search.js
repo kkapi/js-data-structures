@@ -1,6 +1,14 @@
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 let count = 0;
 
+/**
+ * Binary Search
+ * Time O(log(N))
+ * @param {number[]} array
+ * @param {number} item
+ * @return {number}
+ */
+
 function binarySearch(array, item) {
 	let start = 0;
 	let end = array.length - 1;
@@ -27,5 +35,5 @@ function binarySearch(array, item) {
 }
 
 console.log('/binary_search/')
-console.log('position: ', binarySearch(array, 5));
+console.log('position: ', binarySearch(array, 8));
 console.log('iteration count: ', count);
