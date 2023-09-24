@@ -10,7 +10,7 @@ let count = 0;
 
 function bubbleSort(array) {
 	for (let i = 0; i < array.length; i++) {
-		for (let j = 0; j < array.length - i; j++) {
+		for (let j = 0; j < array.length - i - 1; j++) {
 			count += 1;
 
 			if (array[j] > array[j + 1]) {
